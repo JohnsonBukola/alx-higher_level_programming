@@ -2,8 +2,8 @@
 
 def search_replace(my_list, search, replace):
     new_list = []
-    for y in my_list:
-        if y == search:
+    for x in my_list:
+        if x == search:
             new_list.append(replace)  # append replacement value
         else:
             new_list.append(x)  # append original
@@ -12,4 +12,4 @@ def search_replace(my_list, search, replace):
 
 # the list comprehension way:
 # def search_replace(my_list, search, replace):
-# return [replace if search == y else y for y in my_list]
+# return [replace if search == x else x for x in my_list]
